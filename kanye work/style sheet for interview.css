@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #010000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #010000;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@font-face{
+	src: url("Archivo_Narrow/ArchivoNarrow-Bold.ttf");
+	font-family: archivo;
+}
+@font-face{
+	src: url("Archivo_Narrow/ArchivoNarrow-Medium.ttf");
+	font-family: Marchivo;
+}
+.title {
+	color:red;
+	text-align: center;
+	font-size: 60px; 
+	font-family: archivo;
+}
+
+.ques {
+			text-align: left;
+			font-size: 30px;
+			font-family: Marchivo;
+			color: white;
+	        margin:10px 80px 20px;
+	
+		}
+
+.ans {
+			text-align: left;
+			font-size: 24px;
+			font-family: Marchivo;
+			color: red;
+	        margin:10px 80px 20px;
+	
+		}
